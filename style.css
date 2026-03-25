@@ -1,0 +1,271 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+span {
+  color: rgb(233, 53, 89);
+}
+a {
+  text-decoration: none;
+}
+body {
+  background-color: rgb(203, 178, 178);
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 80px;
+  background-color: rgb(30, 15, 15);
+  height: 120px;
+}
+header h1 {
+  color: aliceblue;
+}
+header ul {
+  display: flex;
+  gap: 30px;
+  list-style: none;
+  padding: 20px;
+}
+header ul li a {
+  color: aliceblue;
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+header ul li a:hover {
+  color: rgb(233, 53, 89);
+}
+header button {
+  padding: 13px 30px;
+  background-color: rgb(233, 53, 89);
+  border: none;
+  border-radius: 18px;
+  color: white;
+  font-size: 16px;
+}
+header button:hover {
+  background-color: rgb(30, 15, 15);
+  border: rgb(233, 53, 89) solid 2px;
+  padding: 11px 28px;
+}
+section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(30, 15, 15);
+  height: 86vh;
+  width: 100%;
+}
+.content-left {
+  display: flex;
+  flex-direction: column;
+  padding: 50px 100px;
+  gap: 10px;
+}
+.content-left p {
+  color: rgb(223, 188, 255);
+  font-size: 23px;
+}
+.definition {
+  color: aliceblue;
+}
+.content-left h2 {
+  color: aliceblue;
+  font-size: 60px;
+}
+.content-left button {
+  width: 140px;
+  height: 50px;
+  border: none;
+  border-radius: 25px;
+  background-color: rgb(233, 53, 89);
+  font-size: 16px;
+  margin-top: 10px;
+  color: aliceblue;
+}
+.content-left button:hover {
+  background-color: rgb(30, 15, 15);
+  border: rgb(233, 53, 89) solid 2px;
+}
+.content-left .icons i {
+  background-color: red;
+  padding: 12px;
+  margin: 12px;
+  border-radius: 30px;
+  font-size: 24px;
+  color: white;
+  margin-top: 20px;
+}
+#facebook {
+  background-color: rgb(53, 53, 217);
+}
+#insta {
+  background-color: rgb(210, 14, 135);
+}
+#twitter {
+  background-color: rgb(15, 163, 232);
+}
+.content-left .icons i:hover {
+  padding: 15px;
+  margin: 9px;
+  transition: 0.4s;
+}
+.content-right .shape {
+  position: relative;
+  margin-right: 50px;
+  width: 580px;
+  height: 670px;
+  transition: transform 1s ease; /* move transition here */
+}
+.content-right .busines {
+  position: absolute;
+  top: 173px;
+  right: 100px;
+  transition: transform 1s ease; /* move transition here */
+}
+
+.content-right:hover .shape {
+  transform: translateY(-30px); /* replaces margin-bottom */
+}
+
+.content-right:hover .busines {
+  transform: translateX(25px); /* replaces margin-right */
+}
+.section2 {
+  background-color: rgb(29, 38, 39);
+  display: flex;
+  align-items: center;
+}
+.section2 img {
+  height: 500px;
+  width: 500px;
+  padding: 30px;
+  margin-left: 50px;
+}
+.text-sec {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: aliceblue;
+  font-size: 22px;
+  padding: 50px;
+}
+.text-sec h1 {
+  font-size: 70px;
+}
+.text-sec h3 {
+  padding: 10px;
+}
+.text-sec p {
+  font-size: 20px;
+  padding: 15px 50px;
+}
+.section3 {
+  background-color: rgb(30, 15, 15);
+  color: aliceblue;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 70vh;
+  width: 100%;
+}
+.section3 .our {
+  margin: 30px;
+  padding-top: 20px;
+}
+.section3 .services {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 80px;
+}
+.section3 .services div {
+  height: 300px;
+  width: 250px;
+  background-color: rgb(29, 38, 39);
+  border-radius: 25px;
+}
+.section3 .services .mobile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.section3 .services .web {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.section3 .services .desktop {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.section3 .services .architect {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.section3 .services div i {
+  font-size: 50px;
+  color: rgb(233, 53, 89);
+  padding: 20px;
+}
+.section3 .our h2 {
+  font-size: 50px;
+}
+.section3 .services h2 {
+  padding-bottom: 15px;
+}
+.section3 .services p {
+  padding: 0 30px;
+  color: rgb(223, 188, 255);
+}
+.section4 {
+  background-color: rgb(29, 38, 39);
+  color: aliceblue;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 70vh;
+  width: 100%;
+}
+.section4 h1 {
+  font-size: 60px;
+  padding: 30px;
+}
+.section4 .skills {
+  display: flex;
+  justify-content: space-around;
+  gap: 50px;
+  padding: 100px 50px;
+}
+.section4 .skills img {
+  height: 150px;
+  width: 150px;
+  padding: 20px;
+  background-color: rgb(233, 228, 222);
+  border-radius: 25px;
+}
+footer {
+  background-color: rgb(30, 15, 15);
+  color: aliceblue;
+  font-size: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+footer h3 {
+  font-size: 40px;
+  padding-top: 20px;
+}
+footer p {
+  padding: 20px;
+}
+footer a {
+  text-decoration: none;
+  color: rgb(233, 53, 89);
+  padding-bottom: 20px;
+}
